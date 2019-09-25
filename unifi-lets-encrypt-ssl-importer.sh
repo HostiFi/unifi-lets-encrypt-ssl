@@ -1,9 +1,8 @@
-while getopts e:d: option
+while getopts e: option
 do
 case "${option}"
 in
-e) EMAIL=${OPTARG};;
-d) HOSTNAME=${OPTARG};;
+e) HOSTNAME=${OPTARG};;
 esac
 done
 
